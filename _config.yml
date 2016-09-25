@@ -9,7 +9,7 @@ url: http://imresear.ch # site url
 baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-49034078-13
-repo: http://github.com/neuronstar/imresearch
+repo: https://github.com/imresearch/imresearch.github.io
 disqus_shortname: "imresearch"
 # twitter_username: ""
 comments: true
