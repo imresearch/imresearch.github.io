@@ -1,0 +1,68 @@
+
+# SEO settings
+title: "Imaginary Research"
+title2: "" # default: ""
+description: "The research you have been expecting but have not been done."
+keywords: "Research, Imaginary Research, Improbable Research, Research Nonexistent"
+url: http://imresear.ch # site url
+# baseurl: "/thinkspace" # apply repo name if use it under gh-pages branch
+baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-49034078-13
+repo: http://github.com/neuronstar/imresearch
+disqus_shortname: "imresearch"
+# twitter_username: ""
+comments: true
+mathjax: true
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Jekyll Collections
+
+collections:
+  ideas:
+    output: true
+  inflation:
+    output: true
+
+# Author settings
+author:
+  name     : "Imaginary Research"
+  job      : ""
+  bio      : ""
+  thumb    : /images/author.jpg
+  email    : 
+  url      : 
+  github   : 
+  twitter  : 
+  facebook : 
+  linkedin : 
+
+# social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@emptymalei"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
