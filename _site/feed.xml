@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Imaginary Research</title>
+    <description>The research you have been expecting but have not been done.</description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 24 Sep 2016 23:47:53 -0600</pubDate>
+    <lastBuildDate>Sat, 24 Sep 2016 23:47:53 -0600</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Imaginary Research 成立</title>
+        <description>&lt;h3 id=&quot;section&quot;&gt;设计&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Jekyll + Git&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 21 Sep 2016 00:00:00 -0600</pubDate>
+        <link>/2016/how-to-download-or-use-this-theme/</link>
+        <guid isPermaLink="true">/2016/how-to-download-or-use-this-theme/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
