@@ -3,10 +3,10 @@
   <channel>
     <title>Imaginary Research</title>
     <description>The research you have been expecting but have not been done.</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Sep 2016 23:47:53 -0600</pubDate>
-    <lastBuildDate>Sat, 24 Sep 2016 23:47:53 -0600</lastBuildDate>
+    <link>http://imresear.ch/</link>
+    <atom:link href="http://imresear.ch/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 29 Sep 2016 01:59:23 -0600</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2016 01:59:23 -0600</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -18,8 +18,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 21 Sep 2016 00:00:00 -0600</pubDate>
-        <link>/2016/how-to-download-or-use-this-theme/</link>
-        <guid isPermaLink="true">/2016/how-to-download-or-use-this-theme/</guid>
+        <link>http://imresear.ch/2016/how-to-download-or-use-this-theme/</link>
+        <guid isPermaLink="true">http://imresear.ch/2016/how-to-download-or-use-this-theme/</guid>
         
         
       </item>
