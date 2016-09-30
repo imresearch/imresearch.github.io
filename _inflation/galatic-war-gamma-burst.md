@@ -1,9 +1,8 @@
 ---
 layout: inflation
 title: "星际战争、星际飞船与伽马暴"
-comments: true
-description: "Here is How to Download/Use This Theme"
-keywords: "dummy content"
+description: "星际战争与伽马暴的可能关联"
+keywords: "伽马暴, GRB, Gamma Ray Burst"
 author: OctoMiao
 ---
 
