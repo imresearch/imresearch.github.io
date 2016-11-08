@@ -1,7 +1,7 @@
 ---
-layout: page
 title: 关于
-permalink: /about/
+permalink: "/about/"
+layout: page
 ---
 
 `Imaginary Research` 最早的形式是[`科学与科幻`](http://sci2fi.openmetric.org)项目，后来演化为豆瓣专栏[`《暴胀中的脑洞》`](https://read.douban.com/column/1263939/?icn=from-author-page)，然而由于豆瓣的奇葩的合同，专栏处于废弃状态。

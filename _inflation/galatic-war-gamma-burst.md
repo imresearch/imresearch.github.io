@@ -1,12 +1,10 @@
 ---
+title: 星际战争、星际飞船与伽马暴
 layout: inflation
-title: "星际战争、星际飞船与伽马暴"
-description: "星际战争与伽马暴的可能关联"
-keywords: "伽马暴, GRB, Gamma Ray Burst"
+description: 星际战争与伽马暴的可能关联
+keywords: 伽马暴, GRB, Gamma Ray Burst
 author: OctoMiao
 ---
-
-
 
 本文不是纯正的科学，其中幻想与科学混杂，请勿用于科学参考。对科学不感兴趣的诸位可以跳过第一部分的科学基础，直接进入脑洞阶段。
 

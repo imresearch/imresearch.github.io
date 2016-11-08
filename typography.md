@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Typography of this Website
+layout: page
 ---
 
 * ToC

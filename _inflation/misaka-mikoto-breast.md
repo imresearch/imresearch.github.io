@@ -1,12 +1,10 @@
 ---
+title: 御坂美琴的贫乳问题
 layout: inflation
-title: "御坂美琴的贫乳问题"
-description: "御坂美琴的超能力的科学关联"
-keywords: "炮姐,御坂美琴,超能力"
+description: 御坂美琴的超能力的科学关联
+keywords: 炮姐,御坂美琴,超能力
 author: OctoMiao
 ---
-
-
 
 本文不是纯正的科学，其中幻想与科学混杂，请勿用于科学参考。由于本篇脑洞过大，如有不适，请立刻停止阅读，寻找无人的卫生间。
 

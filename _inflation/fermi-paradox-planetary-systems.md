@@ -1,11 +1,10 @@
 ---
+title: 费米悖论与星系系统
 layout: inflation
-title: "费米悖论与星系系统"
-description: "费米悖论的一些解释以及好玩的行星系统"
-keywords: "费米悖论"
+description: 费米悖论的一些解释以及好玩的行星系统
+keywords: 费米悖论
 author: OctoMiao
 ---
-
 
 本文有两个主题：脑洞出来的星系系统和费米悖论。如果只看脑洞，可以跳过费米悖论。照旧：请勿将本文用作科学参考。
 

@@ -1,12 +1,10 @@
 ---
+title: 涟漪、星辰和梦想
 layout: inflation
-title: "涟漪、星辰和梦想"
-description: "武林高手的科学关联"
-keywords: "视觉,武林"
+description: 武林高手的科学关联
+keywords: 视觉,武林
 author: OctoMiao
 ---
-
-
 
 本文不是纯正的科学，其中幻想与科学混杂，请勿用于科学参考。对科学不感兴趣的诸位可以跳过第一部分的科学基础，直接进入脑洞阶段。
 

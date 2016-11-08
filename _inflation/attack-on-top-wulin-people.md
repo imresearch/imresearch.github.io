@@ -1,12 +1,10 @@
 ---
+title: 谁让你从背后袭击一个武林高手
 layout: inflation
-title: "谁让你从背后袭击一个武林高手"
-description: "武林高手的科学关联"
-keywords: "视觉,武林"
+description: 武林高手的科学关联
+keywords: 视觉,武林
 author: OctoMiao
 ---
-
-
 
 本文不是纯正的科学，其中幻想与科学混杂，请勿用于科学参考。
 
