@@ -1,6 +1,5 @@
 ---
 title: 费米悖论与星系系统
-layout: inflation
 description: 费米悖论的一些解释以及好玩的行星系统
 keywords: 费米悖论
 author: OctoMiao

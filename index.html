@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: default
+layout: splash
 ---
 
 {% include intro.html %}
@@ -13,12 +13,20 @@ layout: default
  <h2 class="category-title">暴胀中的脑洞</h2>
 {% for post in inf %}
       <article class="post-item">
-        <span class="post-meta date-label">{{ post.author }}</span>
         <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
       </article>
-    {% endfor %}
+{% endfor %}
 
-<h2 class="category-title">杂讯</h2>
+ {% assign inf = site.ideas | sort: 'title' %}
+  <h2 class="category-title">点子集</h2>
+ {% for post in inf %}
+       <article class="post-item">
+         <span class="post-meta date-label">{{ post.author }}</span>
+         <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
+       </article>
+{% endfor %}
+
+<h2 class="category-title">Blog</h2>
 {% for post in site.posts %}
       {% unless post.next %}
         <h3 class="category-title">{{ post.date | date: '%Y' }}</h3>

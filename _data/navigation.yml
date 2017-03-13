@@ -1,0 +1,39 @@
+# main links
+main:
+  - title: "点子集"
+    url: /ideas/
+  - title: "关于"
+    url: /about/
+  - title: "存档"
+    url: /archive/  #  url: /year-archive/
+  - title: "Blog"
+    url: /blog/
+
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+
+archive:
+  - title: 查找方式
+    children:
+      - title: "所有合集"
+        url: /collection-archive/
+      - title: "Blog 文章"
+        url: /year-archive/
+      - title: "分类"
+        url: /categories/
+      - title: "标签"
+        url: /tags/
+
+  - title: 暴涨中的脑洞
+    url: /inflation/
+
+  - title: 点子集
+    url: /ideas/
+
+  - title: 关联网站
+    children:
+      - title: "星际移民中心"
+        url: http://interimm.org
+      

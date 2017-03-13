@@ -1,6 +1,5 @@
 ---
 title: 涟漪、星辰和梦想
-layout: inflation
 description: 武林高手的科学关联
 keywords: 视觉,武林
 author: OctoMiao
