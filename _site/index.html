@@ -206,6 +206,9 @@ MathJax.Hub.Config({
             <li class="masthead__menu-item"><a href="http://localhost:4000/ideas/">点子集</a></li>
           
             
+            <li class="masthead__menu-item"><a href="http://localhost:4000/remnant/">故事的残片</a></li>
+          
+            
             <li class="masthead__menu-item"><a href="http://localhost:4000/about/">关于</a></li>
           
             
@@ -232,7 +235,52 @@ MathJax.Hub.Config({
     
 
     <section class="page__content" itemprop="text">
-      <section class="intro">
+      <style>
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+</style>
+
+<section class="intro">
   <div class="container">
     <p class="lead" style="text-align: center;">欢迎来到 <br><strong class="author-name" itemprop="name">Imaginary Research</strong> <br>
     这里有不存在的科研<br>
@@ -245,9 +293,14 @@ MathJax.Hub.Config({
 <section class="post-list">
   <div class="container">
 
+     <div class="section group">
+        <div class="col span_1_of_2">
 
 
- <h2 class="category-title">暴胀中的脑洞</h2>
+
+
+
+ <h2 class="category-title">专辑：暴胀中的脑洞</h2>
 
       <article class="post-item">
         <div class="article-title"><a class="post-link" href="/inflation/misaka-mikoto-breast/">御坂美琴的贫乳问题</a></div>
@@ -270,25 +323,59 @@ MathJax.Hub.Config({
       </article>
 
 
- 
-  <h2 class="category-title">点子集</h2>
- 
+</div>
+<div class="col span_1_of_2">
+
+   <h2 class="category-title">Blog</h2>
+   
+         
+           <h3 class="category-title">2016</h3>
+         
+         <article class="post-item">
+           <span class="post-meta date-label">Sep 21</span>
+           <div class="article-title"><a class="post-link" href="/how-to-download-or-use-this-theme/">Imaginary Research 成立</a></div>
+         </article>
+       
+
+
+
+
+
+</div>
+</div>
+
+
+<div class="section group">
+  <div class="col span_1_of_2">
+
+     
+     <h2 class="category-title">点子集</h2>
+     
+         <article class="post-item">
+           <span class="post-meta date-label"></span>
+           <div class="article-title"><a class="post-link" href="/ideas/physics/">物理 - 点子集</a></div>
+         </article>
+     
+
+
+
+
+</div>
+<div class="col span_1_of_2">
+
+   
+   <h2 class="category-title">故事的残片</h2>
+   
        <article class="post-item">
          <span class="post-meta date-label"></span>
-         <div class="article-title"><a class="post-link" href="/ideas/physics/">物理 - 点子集</a></div>
+         <div class="article-title"><a class="post-link" href="/remnant/stellar-course-network/">穿行于恒星网络</a></div>
        </article>
+   
 
 
-<h2 class="category-title">Blog</h2>
 
-      
-        <h3 class="category-title">2016</h3>
-      
-      <article class="post-item">
-        <span class="post-meta date-label">Sep 21</span>
-        <div class="article-title"><a class="post-link" href="/how-to-download-or-use-this-theme/">Imaginary Research 成立</a></div>
-      </article>
-    
+    </div>
+    </div>
 
 
     <!-- 

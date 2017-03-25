@@ -268,11 +268,21 @@ defaults:
       layout: single
       author_profile: true
       share: true
+  - scope:
+      path: "_remnant"
+      type: remnant
+    values:
+      layout: single
+      author_profile: true
+      share: true
 
 
 collections:
   ideas:
     title: Ideas
+    output: true
+  remnant:
+    title: "故事的残片"
     output: true
   inflation:
     title: "暴涨中的脑洞"
