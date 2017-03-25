@@ -42,11 +42,14 @@ citing.rst
 
 
 
-## 参考及备注
+## 关于授权
 
+<div class="notes--warning" markdown="1">
 
-本文档曾经与 [星际移民中心](http://interimm.github.io/) 合作。
+本文档与 [**星际移民中心**](http://interimm.github.io/) 合作。
 
 文档内容若无特殊说明使用 CC BY-SA 协议。请保留原文链接并注明原作者为“章鱼喵”，推演作品请同样注明并说明推演。
 
 ![](https://raw.github.com/opentf/GuokrBadge/master/cc/gs/cc_bysa.flat.guokr.32.png){: .align-center}
+
+</div>

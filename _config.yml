@@ -279,7 +279,7 @@ defaults:
 
 collections:
   ideas:
-    title: Ideas
+    title: "科学点子"
     output: true
   remnant:
     title: "故事的残片"

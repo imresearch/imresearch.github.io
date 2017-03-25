@@ -19,7 +19,7 @@ main:
 archive:
   - title: 查找方式
     children:
-      - title: "所有合集"
+      - title: "合集文章"
         url: /collection-archive/
       - title: "Blog 文章"
         url: /year-archive/
@@ -28,14 +28,14 @@ archive:
       - title: "标签"
         url: /tags/
 
-  - title: 暴涨中的脑洞
-    url: /inflation/
-
-  - title: 点子集
-    url: /ideas/
-
-  - title: 故事的残片
-    url: /remnant/
+  - title: 合集
+    children:
+      - title: 暴涨中的脑洞
+        url: /inflation/
+      - title: 科学点子
+        url: /ideas/
+      - title: 故事的残片
+        url: /remnant/
 
   - title: 关联网站
     children:
