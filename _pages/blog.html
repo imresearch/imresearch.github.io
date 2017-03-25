@@ -1,0 +1,30 @@
+---
+layout: archive
+title: "Blog"
+permalink: /blog/
+author_profile: false
+sidebar:
+  nav: "archive"
+---
+
+关于站点的一些博客文章。
+
+<div class="notes--warning" markdown="1">
+
+文档内容若无特殊说明使用 CC BY-SA 协议。请保留原文链接并注明原作者为“章鱼喵”，推演作品请同样注明并说明推演。
+
+<img src="https://raw.github.com/opentf/GuokrBadge/master/cc/gs/cc_bysa.flat.guokr.32.png" style="margin-left: auto;margin-right:auto; display:block;margin-top:1em;">
+
+</div>
+
+{% include base_path %}
+
+{% capture written_year %}'None'{% endcapture %}
+{% for post in site.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}

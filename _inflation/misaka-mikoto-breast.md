@@ -1,6 +1,5 @@
 ---
 title: 御坂美琴的贫乳问题
-layout: inflation
 description: 御坂美琴的超能力的科学关联
 keywords: 炮姐,御坂美琴,超能力
 author: OctoMiao

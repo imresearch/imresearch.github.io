@@ -1,6 +1,6 @@
 ---
 title: Typography of this Website
-layout: page
+layout: splash
 ---
 
 * ToC

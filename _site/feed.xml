@@ -3,23 +3,23 @@
   <channel>
     <title>Imaginary Research</title>
     <description>The research you have been expecting but have not been done.</description>
-    <link>http://imresear.ch/</link>
-    <atom:link href="http://imresear.ch/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Oct 2016 22:20:34 -0600</pubDate>
-    <lastBuildDate>Sun, 02 Oct 2016 22:20:34 -0600</lastBuildDate>
-    <generator>Jekyll v3.0.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 25 Mar 2017 14:57:02 -0600</pubDate>
+    <lastBuildDate>Sat, 25 Mar 2017 14:57:02 -0600</lastBuildDate>
+    <generator>Jekyll v3.4.2</generator>
     
       <item>
         <title>Imaginary Research 成立</title>
-        <description>&lt;h3 id=&quot;section&quot;&gt;设计&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;设计&quot;&gt;设计&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Jekyll + Git&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 21 Sep 2016 00:00:00 -0600</pubDate>
-        <link>http://imresear.ch/2016/how-to-download-or-use-this-theme/</link>
-        <guid isPermaLink="true">http://imresear.ch/2016/how-to-download-or-use-this-theme/</guid>
+        <pubDate>Tue, 20 Sep 2016 18:00:00 -0600</pubDate>
+        <link>http://localhost:4000/how-to-download-or-use-this-theme/</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-download-or-use-this-theme/</guid>
         
         
       </item>

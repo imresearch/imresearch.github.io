@@ -1,4 +1,256 @@
-<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <meta name="apple-mobile-web-app-capable" content="yes"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-96x96.png"> <title> Typography of this Website | Imaginary Research </title> <meta name="description" content=" The research you have been expecting but have not been done. "> <meta name="keywords" content="Research, Imaginary Research, Improbable Research, Research Nonexistent"> <meta name="HandheldFriendly" content="True"> <meta name="MobileOptimized" content="320"> <!-- Social: Facebook / Open Graph --> <meta property="og:type" content="website"> <meta property="og:url" content="http://imresear.ch/typography/"> <meta property="og:title" content=" Typography of this Website | Imaginary Research "> <meta property="og:image" content="http://imresear.ch"> <meta property="og:description" content=" The research you have been expecting but have not been done. "> <meta property="og:site_name" content="Imaginary Research"> <meta property="og:locale" content="en_US"> <!-- Social: Twitter --> <meta name="twitter:card" content="summary_large_image"> <meta name="twitter:site" content="@emptymalei"> <meta name="twitter:title" content=" Typography of this Website | Imaginary Research "> <meta name="twitter:description" content=" The research you have been expecting but have not been done. "> <meta name="twitter:image:src" content="http://imresear.ch"> <!-- Social: Google+ / Schema.org --> <meta itemprop="name" content=" Typography of this Website | Imaginary Research "> <meta itemprop="description" content=" The research you have been expecting but have not been done. "> <meta itemprop="image" content="http://imresear.ch"> <!-- rel prev and next --> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="stylesheet" href="/assets/css/font-awesome.min.css"> <!-- Canonical link tag --> <link rel="canonical" href="http://imresear.ch/typography/"> <link rel="alternate" type="application/rss+xml" title="Imaginary Research" href="http://imresear.ch/feed.xml"> <!-- MathJax --> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]} }); </script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "AMS" } } }); </script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { extensions: ["color.js","cancel.js", "AMSmath.js", "AMSsymbols.js"] }}); </script> <script type="text/x-mathjax-config"> MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () { MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{ cancel: ["Extension","cancel"] }); }); </script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] } }); </script> <script type="text/x-mathjax-config"> MathJax.Hub.Queue(function() { var all = MathJax.Hub.getAllJax(), i; for(i=0; i < all.length; i += 1) { all[i].SourceElement().parentNode.className += ' has-jax'; } }); </script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: { processEscapes: true } }); </script> <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { Macros: { overlr: ['\\overset\\leftrightarrow{\#1}',1], overl: ['\\overset\leftarrow{\#1}',1], overr: ['\\overset\rightarrow{\#1}',1], bra: ['\\left\\langle \#1\\right|',1], ket: ['\\left| \#1\\right\\rangle',1], braket: ['\\langle \#1 \\mid \#2 \\rangle',2], avg: ['\\left< \#1 \\right>',1], slashed: ['\\cancel{\#1}',1], bold: ['\\boldsymbol{\#1}',1], sech: ['\\operatorname{sech}{\#1}',1], csch: ['\\operatorname{csch}{\#1}',1] } } }); </script> <!-- MathJax --> <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> <script type="text/javascript"> var disqus_shortname = 'imresearch'; var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-49034078-13']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> </head> <body> <main class="wrapper"> <header class="site-header"> <nav class="nav"> <div class="container"> <h1 class="logo"><a href="/">Imaginary Research<span></span></a></h1> <ul class="navbar"> <li><a href="/about">About</a></li> <li><a href="/feed.xml" target="_blank">RSS</a></li> </ul> </div> </nav> </header> <article class="page container"> <header class="page-header"> <h1 class="page-title">Typography of this Website</h1> </header> <div class="page-content"> <ul id="markdown-toc"> <li><a href="#basic-syntax" id="markdown-toc-basic-syntax">Basic Syntax</a></li> <li><a href="#notes-div" id="markdown-toc-notes-div">Notes div</a></li> <li><a href="#figure-with-caption" id="markdown-toc-figure-with-caption">Figure with Caption</a></li> <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of Contents</a></li> </ul> <h2 id="basic-syntax">Basic Syntax</h2> <p>This website uses <a href="http://kramdown.gettalong.org"><code class="highlighter-rouge">kramdown</code></a> as the basic syntax. However, a lot of html/css/js has been applied to generate some certain contents or styles.</p> <p>Math also follows the <a href="http://kramdown.gettalong.org/syntax.html#math-blocks"><code class="highlighter-rouge">kramdown</code> syntax</a>.</p> <h2 id="notes-div">Notes div</h2> <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notes--info"</span> <span class="na">markdown=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.2.2 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="zh" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Typography of this Website - Imaginary Research</title>
+
+
+
+
+<meta name="description" content="The research you have been expecting but have not been done.">
+
+
+
+
+<meta name="author" content="章鱼喵">
+
+<meta property="og:locale" content="zh">
+<meta property="og:site_name" content="Imaginary Research">
+<meta property="og:title" content="Typography of this Website">
+
+
+  <link rel="canonical" href="http://localhost:4000/typography/">
+  <meta property="og:url" content="http://localhost:4000/typography/">
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Imaginary Research",
+      "url" : "http://localhost:4000",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Imaginary Research Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+    <!-- start custom head snippets -->
+<!-- MathJax -->
+  
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  TeX: { equationNumbers: { autoNumber: "AMS" } }
+});
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({ TeX: { extensions: ["color.js","cancel.js", "AMSmath.js", "AMSsymbols.js"] }});
+  </script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+    MathJax.Hub.Insert(MathJax.InputJax.TeX.Definitions.macros,{
+      cancel: ["Extension","cancel"]
+      });
+   });
+   </script>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      processEscapes: true
+    }
+  });
+</script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    TeX: {
+      Macros: {
+        overlr: ['\\overset\\leftrightarrow{\#1}',1],
+        overl: ['\\overset\leftarrow{\#1}',1],
+        overr: ['\\overset\rightarrow{\#1}',1],
+        bra: ['\\left\\langle \#1\\right|',1],
+        ket: ['\\left| \#1\\right\\rangle',1],
+        braket: ['\\langle \#1 \\mid \#2 \\rangle',2],
+        avg: ['\\left< \#1 \\right>',1],
+        slashed: ['\\cancel{\#1}',1],
+        bold: ['\\boldsymbol{\#1}',1],
+        sech: ['\\operatorname{sech}{\#1}',1],
+        csch: ['\\operatorname{csch}{\#1}',1]
+      }
+    }
+  });
+  </script>
+<!-- MathJax -->
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/assets/images/favicons/manifest.json">
+<link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--splash">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://localhost:4000/">Imaginary Research</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/ideas/">点子集</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/remnant/">故事的残片</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/about/">关于</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/archive/">存档</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/blog/">Blog</a></li>
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+<div id="main" role="main">
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Typography of this Website">
+    
+    
+    
+
+    <section class="page__content" itemprop="text">
+      <ul id="markdown-toc">
+  <li><a href="#basic-syntax" id="markdown-toc-basic-syntax">Basic Syntax</a></li>
+  <li><a href="#notes-div" id="markdown-toc-notes-div">Notes div</a></li>
+  <li><a href="#figure-with-caption" id="markdown-toc-figure-with-caption">Figure with Caption</a></li>
+  <li><a href="#table-of-contents" id="markdown-toc-table-of-contents">Table of Contents</a></li>
+</ul>
+
+<h2 id="basic-syntax">Basic Syntax</h2>
+
+<p>This website uses <a href="http://kramdown.gettalong.org"><code class="highlighter-rouge">kramdown</code></a> as the basic syntax. However, a lot of html/css/js has been applied to generate some certain contents or styles.</p>
+
+<p>Math also follows the <a href="http://kramdown.gettalong.org/syntax.html#math-blocks"><code class="highlighter-rouge">kramdown</code> syntax</a>.</p>
+
+<h2 id="notes-div">Notes div</h2>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notes--info"</span> <span class="na">markdown=</span><span class="s">"1"</span><span class="nt">&gt;</span>
 Some notes here, with markdown support
 <span class="nt">&lt;/div&gt;</span>
 
@@ -12,10 +264,75 @@ This is warning text
 
 <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notes--error"</span> <span class="na">markdown=</span><span class="s">"1"</span><span class="nt">&gt;</span>
 This is error text
-<span class="nt">&lt;/div&gt;</span></code></pre></figure> <div class="notes--info"> <p>Please beware that with <code class="highlighter-rouge">markdown="1"</code> the content and div tags have to be on different lines.</p> </div> <h2 id="figure-with-caption">Figure with Caption</h2> <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;figure</span> <span class="na">markdown=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<div class="notes--info">
+  <p>Please beware that with <code class="highlighter-rouge">markdown="1"</code> the content and div tags have to be on different lines.</p>
+</div>
+
+<h2 id="figure-with-caption">Figure with Caption</h2>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;figure</span> <span class="na">markdown=</span><span class="s">"1"</span><span class="nt">&gt;</span>
 ![](../assets/programming/chrome-dev-tools-inspect.png)
 <span class="nt">&lt;figcaption&gt;</span>
 inspect($('.sidebar'))
 <span class="nt">&lt;/figcaption&gt;</span>
-<span class="nt">&lt;/figure&gt;</span></code></pre></figure> <div class="notes--info"> <p>Please determine the path of the image according to the path of the post itself. Otherwise, an absolute path can be specified,</p> <p><code class="highlighter-rouge"> ![](http://imresear.ch/assets/programming/chrome-dev-tools-inspect.png) </code></p> <p>where <code class="highlighter-rouge">http://imresear.ch</code> is the configured url of the site.</p> </div> <h2 id="table-of-contents">Table of Contents</h2> <figure class="highlight"><pre><code class="language-text" data-lang="text">* ToC
-{:toc}</code></pre></figure> <p>is used to generate table of contents.</p> </div> </article> <footer class="site-footer"> <div class="container"> <hr> <small class="block">&copy; 2016 Imaginary Research. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a>. <a href="https://github.com/imresearch/imresearch.github.io/issues" target="_blank">分享你的脑洞/心意</a></small> <small class="block">Made with <i class="fa fa-heart" aria-hidden="true" style="color:#DD3D36"></i> using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>. 用 <i class="fa fa-heart" aria-hidden="true" style="color:#DD3D36"></i> <strike>发电</strike>分享. <a href="/typography"><i class="fa fa-table" aria-hidden="true"></i> </a> <a href="/archive"><i class="fa fa-archive" aria-hidden="true"></i></a></small> </div> </footer> </main> </body> </html>
+<span class="nt">&lt;/figure&gt;</span></code></pre></figure>
+
+<div class="notes--info">
+  <p>Please determine the path of the image according to the path of the post itself. Otherwise, an absolute path can be specified,</p>
+
+  <div class="highlighter-rouge"><pre class="highlight"><code>![](http://localhost:4000/assets/programming/chrome-dev-tools-inspect.png)
+</code></pre>
+  </div>
+
+  <p>where <code class="highlighter-rouge">http://localhost:4000</code> is the configured url of the site.</p>
+</div>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<figure class="highlight"><pre><code class="language-text" data-lang="text">* ToC
+{:toc}</code></pre></figure>
+
+<p>is used to generate table of contents.</p>
+
+    </section>
+  </article>
+</div>
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<div class="container">
+<hr>
+   <small class="block">&copy; 2017 章鱼喵. <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a>. <a href="/issues" target="_blank">分享你的脑洞/心意</a></small>
+   <small class="block">Made with <i class="fa fa-heart" aria-hidden="true" style="color:#DD3D36"></i> using <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>. 用 <i class="fa fa-heart" aria-hidden="true" style="color:#DD3D36"></i> <strike>发电</strike>分享. <a href="/typography"><i class="fa fa-table" aria-hidden="true"></i> </a> <a href="/archive"><i class="fa fa-archive" aria-hidden="true"></i></a></small>
+
+ </div>
+<!-- end custom footer snippets -->
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>关注:</strong></li>
+    
+    
+    
+    
+    
+    <li><a href="http://localhost:4000/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 Imaginary Research. 技术来自于 <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+      </footer>
+    </div>
+
+    <script src="http://localhost:4000/assets/js/main.min.js"></script>
+
+
+
+
+
+  </body>
+</html>
