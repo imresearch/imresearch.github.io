@@ -27,19 +27,6 @@ sidebar:
 {% endfor %}
 
 
-physics.rst
-astro.rst
-interdispline.rst
-social.rst
-superpower.rst
-history.rst
-bio.rst
-misc.rst
-citing.rst
-
-
-
-
 
 
 ## 关于授权
